@@ -31,6 +31,7 @@ class PrintJob extends Entity
     protected $state;
     protected $expireAt;
     protected $options;
+    protected $expireAfter;
 
     public function foreignKeyEntityMap()
     {
