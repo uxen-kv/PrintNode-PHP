@@ -14,6 +14,7 @@ namespace PrintNode;
  * @property string $content
  * @property string $source
  * @property array $options
+ * @property int $expireAfter
  * @property-read int $filesize
  * @property-read DateTime $createTimestamp
  * @property-read string $state
